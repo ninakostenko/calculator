@@ -1,0 +1,47 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 175%;
+  border: 2px solid #444;
+}
+
+.cell {
+  flex: 33%;
+  height: 70px;
+  font-size: 50px;
+}
+
+.container {
+  width: 200px;
+  margin: 50px 50px 20px 20%;
+  box-shadow: 0 3px 15px grey;
+}
+
+.num {
+  background-color: #243849;
+  color: #fff;
+  font-weight: 400;
+}
+
+.cell:hover {
+  background-color: #742820;
+}
+
+input {
+  width: 250px;
+  height: 70px;
+  border: 0;
+  color: #243849;
+  font-size: 60px;
+  padding: 10px 10px;
+  text-align: right;
+}
+
+button {
+  background-color: darkorange;
+}
+p {
+  color: black;
+  padding-left: 1px;
+}
